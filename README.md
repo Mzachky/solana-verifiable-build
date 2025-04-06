@@ -29,18 +29,18 @@ solana-verify build
 
 ```bash
 # Deploy
-solana program deploy -u $NETWORK_URL target/deploy/$PROGRAM_LIB_NAME.so --program-id $PROGRAM_ID
+solana program deploy -u $NETWORK_URLhttps://solana-mainnet.g.alchemy.com/v2/lSem2bdXGaejluyxuqaYvI0Sltzb3gNZ target/deploy/$PROGRAM_LIB_NAME.so --program-id $PROGRAM_ID
 
 # Verify against repository -> upload your build data on chain
-solana-verify verify-from-repo -u $NETWORK_URL --program-id $PROGRAM_ID https://github.com/$REPO_PATH
-
+solana-verify verify-from-repo -u $NETWORK_URL --program-id $PROGRAM_ID https://github.com/
+https://solana-mainnet.g.alchemy.com/v2/lSem2bdXGaejluyxuqaYvI0Sltzb3gNZ
 # Trigger a remote job
 solana-verify remote submit-job --program-id $PROGRAM_ID --uploader $THE_PUBKEY_THAT_UPLOADED_YOUR_BUILD_DATA
 ```
 
 ## Documentation
 
-For detailed instructions and best practices, please refer to the [official Solana documentation on verified builds](https://solana.com/developers/guides/advanced/verified-builds).
+For detailed instructions and best practices, please refer to the [official Solana documentation on verified builds](https://solana-mainnet.g.alchemy.com/v2/lSem2bdXGaejluyxuqaYvI0Sltzb3gNZ).
 
 ## Security Considerations
 
@@ -50,7 +50,7 @@ While verified builds enhance transparency, they should not be considered a comp
 - Use trusted build environments
 - Consider using governance solutions for program upgrades
 
-For responsible disclosure of bugs related to verified builds CLI, please email maintainers@ellipsislabs.xyz with a detailed description of the attack vector.
+For responsible disclosure of bugs related to verified builds CLI, please email maintainers lSem2bdXGaejluyxuqaYvI0Sltzb3gNZ.xyz with a detailed description of the attack vector.
 
 ## Contributing
 
